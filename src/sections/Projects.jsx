@@ -129,10 +129,10 @@ const projects = [
 <div className="mt-6 overflow-hidden rounded-2xl border border-[#252a32] bg-[#0b0d10]">
   <div className="aspect-[16/9] overflow-hidden">
     <img
-      src={project.image}
-      alt={`${project.title} project preview`}
-      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-    />
+  src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, "")}`}
+  alt={`${project.title} project preview`}
+  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+/>
   </div>
 </div>
 

@@ -98,10 +98,10 @@ function About() {
               <div className="relative overflow-hidden rounded-[28px] border border-[#252a32] bg-[#111418]">
 
                 <img
-                  src="/about-profile.png"
-                  alt="Jidnyasa Kuthe - Frontend Developer and UI/UX Designer"
-                  className="h-[460px] w-full object-cover object-top sm:h-[520px]"
-                />
+  src={`${import.meta.env.BASE_URL}about-profile.png`}
+  alt="Jidnyasa Kuthe - Frontend Developer and UI/UX Designer"
+  className="h-[460px] w-full object-cover object-top sm:h-[520px]"
+/>
 
                 {/* Bottom gradient */}
                 <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#0b0d10]/70 to-transparent" />

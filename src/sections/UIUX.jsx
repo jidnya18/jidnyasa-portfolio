@@ -201,11 +201,16 @@ function UIUX() {
 
                 <div className="relative aspect-[16/9] overflow-hidden bg-[#0b0d10]">
 
-                  <img
+                  {/* <img
                     src={study.image}
                     alt={`${study.title} UI/UX design`}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                  />
+                  /> */}
+                  <img
+  src={`${import.meta.env.BASE_URL}${study.image}`}
+  alt={`${study.title} UI/UX design`}
+  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+/>
 
                   {/* Dark overlay */}
 
@@ -348,3 +353,4 @@ function UIUX() {
 }
 
 export default UIUX;
+
