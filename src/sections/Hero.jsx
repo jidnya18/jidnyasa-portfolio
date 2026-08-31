@@ -77,7 +77,7 @@ function Hero() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 download
                 className="group inline-flex items-center justify-center gap-2 rounded-xl border border-[#252a32] px-6 py-3.5 text-sm font-semibold text-[#f5f7fa] transition-all duration-300 hover:border-[#58c472]/40 hover:text-[#58c472]"
               >
@@ -146,20 +146,12 @@ function Hero() {
             {/* ================= YOUR IMAGE ================= */}
             <div className="relative z-10 flex h-[430px] w-[300px] items-end justify-center overflow-hidden rounded-[150px_150px_35px_35px] border border-[#58c472]/30 bg-gradient-to-b from-[#18221b] to-[#0f1310] shadow-2xl shadow-[#58c472]/10 sm:h-[560px] sm:w-[390px]">
               
-              {/* 
-                YOUR IMAGE
-
-                Put your image inside:
-                public/profile.png
-
-                Then this will automatically show it.
-              */}
-
-              <img
-                src="/profile.png"
-                alt="Jidnyasa - Frontend Developer and UI/UX Designer"
-                className="h-full w-full object-cover object-top"
-              />
+             
+               <img
+  src={`${import.meta.env.BASE_URL}profile.png`}
+  alt="Jidnyasa - Frontend Developer and UI/UX Designer"
+  className="h-full w-full object-cover object-top"
+/>
             </div>
 
             {/* ================= FLOATING CARD 1 ================= */}
