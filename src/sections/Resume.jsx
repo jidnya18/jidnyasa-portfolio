@@ -43,7 +43,7 @@ function Resume() {
           className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between"
         >
           <div className="max-w-3xl">
-            <p className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-[#58c472]">
+            <p className="mb-4 text-3xl font-bold uppercase tracking-[0.25em] text-[#58c472]">
               Resume
             </p>
 

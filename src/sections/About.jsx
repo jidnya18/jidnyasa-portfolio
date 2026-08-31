@@ -6,29 +6,7 @@ import {
   Layers3,
 } from "lucide-react";
 
-// const highlights = [
-//   {
-//     number: "01",
-//     title: "Design",
-//     description:
-//       "Creating clean and intuitive interfaces with a strong focus on usability, visual hierarchy and consistency.",
-//     icon: Brush,
-//   },
-//   {
-//     number: "02",
-//     title: "Develop",
-//     description:
-//       "Turning designs into responsive and interactive web experiences using modern frontend technologies.",
-//     icon: Code2,
-//   },
-//   {
-//     number: "03",
-//     title: "Deliver",
-//     description:
-//       "Building polished experiences that work smoothly across different screen sizes and devices.",
-//     icon: Layers3,
-//   },
-// ];
+
 const highlights = [
   {
     number: "01",
@@ -73,7 +51,7 @@ function About() {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.6 }}
         >
-          <p className="mb-12 text-sm font-medium uppercase tracking-[0.25em] text-[#58c472]">
+          <p className="mb-12 text-3xl font-bold  uppercase tracking-[0.25em] text-[#58c472]">
             About Me
           </p>
 

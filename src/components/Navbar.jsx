@@ -47,7 +47,7 @@ function Navbar() {
           <a
             href="#home"
             onClick={closeMenu}
-            className="text-xl font-bold tracking-tight text-[#f5f7fa]"
+            className="text-3xl font-bold tracking-tight text-[#f5f7fa]"
           >
             Jidnyasa
             <span className="text-[#58c472]">.</span>

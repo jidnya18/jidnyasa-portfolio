@@ -89,7 +89,7 @@ function UIUX() {
           transition={{ duration: 0.6 }}
           className="max-w-3xl"
         >
-          <p className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-[#58c472]">
+          <p className="mb-4 text-3xl font-bold uppercase tracking-[0.25em] text-[#58c472]">
             UI/UX Design
           </p>
 

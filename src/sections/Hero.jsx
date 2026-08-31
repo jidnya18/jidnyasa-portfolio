@@ -30,11 +30,11 @@ function Hero() {
           >
             {/* Small introduction */}
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#252a32] bg-[#111418]/80 px-4 py-2 text-sm text-[#9ca3af] backdrop-blur-sm">
-              <span className="text-lg">👋</span>
+              <span className="text-4xl">👋</span>
 
               <span>
                 Hello, I'm{" "}
-                <span className="font-medium text-[#58c472]">
+                <span className="font-bold text-[#58c472]">
                   Jidnyasa
                 </span>
               </span>
