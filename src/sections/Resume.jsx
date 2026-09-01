@@ -63,7 +63,7 @@ function Resume() {
 
           {/* Download Resume */}
           <a
-            href="/JIDNYASA KUTHE RESUME.pdf"
+            href="/resume.pdf"
             download
             className="group inline-flex w-fit items-center gap-3 rounded-full bg-[#58c472] px-6 py-3.5 text-sm font-semibold text-[#0b0d10] transition-all duration-300 hover:bg-[#43b765] hover:shadow-lg hover:shadow-[#58c472]/10"
           >

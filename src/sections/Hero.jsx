@@ -77,7 +77,7 @@ function Hero() {
               </a>
 
               <a
-                href={`${import.meta.env.BASE_URL}JIDNYASA KUTHE RESUME.pdf`}
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 download
                 className="group inline-flex items-center justify-center gap-2 rounded-xl border border-[#252a32] px-6 py-3.5 text-sm font-semibold text-[#f5f7fa] transition-all duration-300 hover:border-[#58c472]/40 hover:text-[#58c472]"
               >
