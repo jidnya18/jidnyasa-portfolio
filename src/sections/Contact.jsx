@@ -11,7 +11,7 @@ const contactItems = [
   {
     icon: Mail,
     label: "Email",
-    value: "jidnyasa@gmail.com",
+    value: "kuthejidnyasa@gmail.com",
     href: "mailto:your-email@gmail.com",
     external: false,
   },

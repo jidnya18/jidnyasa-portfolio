@@ -55,7 +55,7 @@ function Footer() {
               className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-[#9ca3af] transition-colors hover:text-[#58c472]"
             >
               <Mail size={16} />
-              jidnyasa@gmail.com
+              kuthejidnyasa@gmail.com
             </a>
           </motion.div>
 
